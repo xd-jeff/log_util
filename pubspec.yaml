@@ -15,6 +15,7 @@ dependencies:
   path_provider: 
   intl: 
   stack_trace: 
+  logger:
 
 dev_dependencies:
   flutter_test:
