@@ -204,21 +204,21 @@ extension LevelEmojiExt on Level {
   String get emoji {
     switch (this) {
       case Level.verbose:
-        return '💬'; // 最啰嗦，原始信息
+        return '🗨️'; // 对话气泡
       case Level.trace:
-        return '🔍'; // 调用链 / 跟踪
+        return '🧭'; // 路径 / 追踪
       case Level.debug:
-        return '🐞'; // 调试
+        return '🐛'; // 毛毛虫（你钦点）
       case Level.info:
-        return 'ℹ️'; // 正常信息
+        return '💡'; // 信息 / 提示
       case Level.warning:
-        return '⚠️'; // 潜在问题
+        return '⚠️'; // 警告
       case Level.error:
-        return '❌'; // 错误
+        return '🧨'; // 错误 / 爆点
       case Level.fatal:
         return '💥'; // 致命错误
       case Level.off:
-        return '🚫'; // 关闭
+        return '⛔️'; // 禁止 / 关闭
     }
   }
 }
